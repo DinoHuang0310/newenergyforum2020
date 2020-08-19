@@ -1,0 +1,290 @@
+@import url('https://fonts.googleapis.com/earlyaccess/notosanstc.css');
+@import url('https://fonts.googleapis.com/earlyaccess/cwtexfangsong.css');
+@import url('https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900');
+
+/* reset */
+
+* {
+    box-sizing: border-box;
+}
+
+html.fixed {
+    overflow: hidden;
+    margin-right: 17px;
+}
+
+body {
+    font-family: 'Noto Sans TC', sans-serif, 'Microsoft JhengHei', arial;
+    padding: 0;
+    margin: 0;
+    font-size: 1vw;
+    color: #505050;
+}
+
+ul,
+li,
+figure,
+figcaption {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+a:link,
+a:visited,
+a:hover,
+a:active,
+input,
+select,
+button {
+    font-family: inherit;
+    color: inherit;
+    text-decoration: none;
+    outline: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+img {
+    border: none;
+    outline: none;
+    max-width: 100%;
+}
+
+p,
+ol li {
+    letter-spacing: 0.2em;
+    line-height: 1.6;
+}
+
+mark {
+    background: none;
+}
+
+
+/* start */
+
+.wrapper {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.area {
+    position: relative;
+    padding: 8em 0;
+}
+
+h2 {
+    position: relative;
+    font-size: 4vw;
+    color: #3FB2AA;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    line-height: 1;
+}
+
+h2::before {
+    content: attr(data-en);
+    position: absolute;
+    width: 100%;
+    font-family: 'Monoton', cursive;
+    font-size: 9vw;
+    font-weight: 400;
+    bottom: 0;
+    left: 0;
+    opacity: .12;
+    overflow: hidden;
+    transform: translate(0, 10%);
+}
+
+h2:first-letter {
+    font-size: 1.2em;
+}
+
+.area-box {
+    position: relative;
+}
+
+.area-box::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0.5vw;
+    left: 0.5vw;
+    background: #FFE576;
+}
+
+.area-box.float-box::before,
+.area-box.float-box::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 15vw;
+}
+
+.area-box.float-box::before {
+    top: 0.5vw;
+    left: 0.5vw;
+}
+
+.area-box.float-box::after {
+    top: 0;
+    left: 0;
+    background-image: url('../images/background.png');
+    background-color: #3FB2AA;
+}
+
+.content {
+    position: relative;
+    padding: 2em 4em;
+    color: white;
+    background-image: url('../images/background.png');
+    background-color: #3FB2AA;
+    z-index: 1;
+}
+
+.float-box .content {
+    background: none;
+}
+
+.shadow-box {
+    position: relative;
+}
+
+.shadow-box::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0.5vw;
+    left: 0.5vw;
+    background: rgba(0, 0, 0, .4);
+    transform: rotate(1deg);
+}
+
+@media (hover: hover) {}
+
+@media screen and (-ms-high-contrast: active),
+(-ms-high-contrast: none) {}
+
+@media screen and (max-width: 1900px) {
+    body {
+        font-size: 1.1vw;
+    }
+}
+
+@media screen and (max-width: 1440px) {
+    body {
+        font-size: 1.3vw;
+    }
+    .wrapper {
+        width: 75%;
+    }
+}
+
+@media screen and (max-width: 1280px) {
+    .area {
+        padding: 6em 0;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    body {
+        font-size: 1.6vw;
+    }
+    .wrapper {
+        width: 85%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    body {
+        font-size: 2vw;
+    }
+    .wrapper {
+        width: 90%;
+    }
+    p,
+    ol li {
+        letter-spacing: 0.1em;
+    }
+    h2 {
+        font-size: 6vw;
+    }
+    h2::before {
+        font-size: 11vw;
+    }
+    .content {
+        padding: 1.6em 2.2em;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    body {
+        font-size: 2.5vw;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    body {
+        font-size: 3vw;
+    }
+    .area {
+        padding: 4em 0;
+    }
+    .wrapper {
+        width: 94%;
+    }
+    h2 {
+        font-size: 8vw;
+    }
+    .content {
+        padding: 1.5em 1em;
+    }
+    .shadow-box::before {
+        display: none;
+    }
+    .area-box.float-box::before,
+    .area-box.float-box::after {
+        height: 25vw;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    html.fixed {
+        margin-right: 0;
+    }
+    body {
+        font-size: 4vw;
+    }
+    h2 {
+        font-size: 10vw;
+    }
+    h2::before {
+        font-size: 18vw;
+    }
+    .area {
+        padding: 3em 0;
+    }
+    .area-box::before,
+    .area-box.float-box::before {
+        top: 1.4vw;
+        left: 1.4vw;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    body {
+        font-size: 4.5vw;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    body {
+        font-size: 5vw;
+    }
+}
