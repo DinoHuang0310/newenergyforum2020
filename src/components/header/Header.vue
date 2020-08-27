@@ -1,9 +1,15 @@
 <template>
   <header>
     <div class="header-top">
-      <a class="businesstoday" href="https://www.businesstoday.com.tw/" target="_blank">
-        <img src="../../assets/images/businesstoday.svg" alt="今周刊" />
-      </a>
+      <div class="businesstoday">
+        <a href="https://www.businesstoday.com.tw/" target="_blank">
+          <img src="../../assets/images/businesstoday.svg" alt="今周刊" />
+        </a>
+        <a>
+          <img src="../../assets/images/esg.svg" alt="esg" />
+        </a>
+      </div>
+      
       <ul>
         <li class="forum">
           <a href="#" v-scroll-to="{el: '#about'}" @click.stop>論壇資訊</a>
@@ -132,7 +138,11 @@ header img {
   align-items: center;
 }
 .businesstoday {
+  display: flex;
   margin-left: 2%;
+}
+.businesstoday a {
+  margin: 0 1em 0 0;
 }
 .businesstoday img {
   width: 90px;
@@ -213,6 +223,12 @@ header img {
 @media screen and (max-width: 480px) {
   .businesstoday img {
     padding: 8px 0;
+  }
+  .businesstoday a {
+    margin-right: 0;
+  }
+  .businesstoday a:last-child {
+    display: none;
   }
 }
 
