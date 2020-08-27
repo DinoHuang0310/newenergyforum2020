@@ -18,15 +18,17 @@
                 <tbody class="controller">
                   <tr>
                     <td colspan="3">
-                      <select v-model="active">
-                        <option value="A" selected>A. 永續發展場</option>
-                        <option value="B">B. 風電人才培育暨技術發展場</option>
-                      </select>
+                      <label :class="active === 'A' ? 'active' : null" data-title="下午場A">
+                        <input type="radio" v-model="active" value="A">A. 永續發展場
+                      </label>
+                      <label :class="active === 'B' ? 'active' : null" data-title="下午場B">
+                        <input type="radio" v-model="active" value="B">B. 風電人才培育暨技術發展場
+                      </label>
                     </td>
                   </tr>
                 </tbody>
-                <tbody v-if="afternoonA" v-html="afternoonA" v-show="active === 'A'" />
-                <tbody v-if="afternoonB" v-html="afternoonB" v-show="active === 'B'" />
+                <tbody class="afternoon" v-if="afternoonA" v-html="afternoonA" v-show="active === 'A'" />
+                <tbody class="afternoon" v-if="afternoonB" v-html="afternoonB" v-show="active === 'B'" />
               </table>
             </div>
           </div>
@@ -94,20 +96,28 @@ export default {
   color: white;
   padding: 0.2em 0.8em;
 }
-.controller td {
+.agenda-table .controller tr:last-child td {
   color: white;
   text-align: center;
   padding: 1.5em 1em;
-  background: #3FB2AA;
-  background-image: url('../assets/images/background.png');
+  border-top: solid 1px #ccc;
+  border-bottom: solid 1px #ccc;
 }
-.controller td select {
-  padding: 0.3em 0.6em;
-  margin: 0;
-  font-size: 1em;
-  font-weight: 500;
-  min-width: 40%;
-  color: #505050;
+.controller td label {
+  display: inline-block;
+  min-width: 30%;
+  margin: 0 2.5%;
+  cursor: pointer;
+  padding: 0.4em 0.6em;
+  border-radius: 10px;
+  background: #b4b4b4;
+  transition: .5s;
+}
+.controller td label.active {
+  background: #3FB2AA;
+}
+.controller td label input {
+  display: none;
 }
 .agenda-table thead th {
   color: white;
@@ -122,6 +132,18 @@ export default {
 .agenda-table tbody td:first-child {
   width: 1px;
   white-space: nowrap;
+}
+
+@media (hover: hover) {
+  .controller td label:hover {
+    background: #3FB2AA;
+  }
+}
+
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  .controller td label:hover {
+    background: #3FB2AA;
+  }
 }
 
 @media screen and (max-width: 640px) {
@@ -178,21 +200,27 @@ export default {
   .agenda-table tbody td:first-child:before {
     content: '時間: ';
   }
-  .agenda-table tbody.controller td:first-child:before {
-    content: '請選擇下午場:';
-    display: block;
-    margin-bottom: 0.5em;
+  .agenda-table .controller tr {
+    border: none;
   }
-  .controller td select {
-    width: 90%;
-    margin-bottom: 0.6em;
+  .agenda-table .controller tr:last-child td {
+    background: none;
+    border: none;
+    padding-left: 0;
+    padding-right: 0;
   }
-  .controller:before, .controller:after {
-    content: '';
-    width: 50%;
-    height: 1.5em;
+  .controller td:before {
+    display: none;
+  }
+  .controller td label {
+    width: 45%;
+    font-size: 0;
+  }
+  .controller td label::before {
+    content: attr(data-title);
+    font-size: 1rem;
     display: block;
-    border-right: dotted 3px #505050;
+    padding: 1em 0.6em;
   }
 }
 
