@@ -59,12 +59,23 @@
             "position": "盛達電業股份有限公司 協理",
             "name": "陳均宜",
             "experience": [{
-                "title": "重要經歷",
-                "subtitle": "",
-                "list": ["盛齊綠能公司協理", "參與成立盛齊綠能公司，代理銷售國際大廠SolarEdge和Sungrow變流器，並提供電網級AI監控系統和專業電廠維運服務", "曾任職於新加坡創投與財富管理公司Golden Equator Capital", "盛達電業公司行銷部門經理"]
-            }],
+                    "title": "學歷",
+                    "subtitle": "",
+                    "list": ["以色列特拉維夫大學 Tel Aviv University", "新加坡國立大學 National Singapore University 工商管理(MBA) 碩士"]
+                },
+                {
+                    "title": "經歷",
+                    "subtitle": "",
+                    "list": ["曾任職於新加坡創投與家族財富管理辦公室Golden Equator Group。", "自2015年參與台灣盛達電業公司轉型再生能源新事業，由原先通訊及電源的主力市場，延伸轉型至綠能及太陽能產業與儲能產業之布局。", "成立集團旗下子公司盛齊綠能公司，代理銷售國際大廠SolarEdge和Sungrow太陽能發電系統，同時提供電網級太陽能AI監控平台與電站保養維運服務。"]
+                }
+            ]
+        },
+        {
+            "image": "https://events.businesstoday.com.tw/2020/newenergyforum/images/speakers/speakers06.png",
+            "position": "上緯新能源股份有限公司 執行長",
+            "name": "林雍堯",
             "description": [
-                "畢業於以色列特拉維夫大學 Tel Aviv University 、新加坡國立大學 National Singapore University 工商管理(MBA)碩士，自2015年參與台灣盛達電業公司轉型再生能源新事業，由原先通訊及電源的主力市場，延伸轉型至綠能及太陽能產業與儲能產業之布局。"
+                "林雍堯自2014 年起擔任上緯新能源股份有限公司執行長至今，主導公司之離岸風力發電業務開發、運營暨維護等範疇。他亦兼任台灣首座離岸式風力發電場、海洋離岸風力發電公司（Formosa I Wind Power Co., Ltd.）總經理、項目負責人（Project Director）、董事暨執行委員會成員，負責監督、協調整合項目開發之EPC 合約、國際投資人、銀行專案融資，勞動安全暨衛生（Health, Safety & Environment）規範、風險管理政府審批等事項之推動和運作。"
             ]
         },
         {
@@ -73,6 +84,22 @@
             "name": "柯宗廷",
             "description": [
                 "美國西北大學專案管理碩士、國立中山大學海工系博士、美國UC Merced分校研究學者、德國HZG研究中心博士後研究。曾任高雄市政府港務局局長、高雄市政府海洋局局長、高雄市都市計畫委員會委員、財團法人中華民國對外漁業合作發展協會常務董事、行政院農委會漁業發展基金管理委員會委員。目前擔任台灣海洋重工股份有限公司董事長、國立中山大學海洋環境及工程學系兼任助理教授、行政院海洋委員會諮詢委員。"
+            ]
+        },
+        {
+            "image": "https://events.businesstoday.com.tw/2020/newenergyforum/images/speakers/speakers07.png",
+            "position": "台灣國際造船公司管理處經理",
+            "name": "李燕強",
+            "description": [
+                "喜歡大海、喜歡船丶也熱愛工程，在學時矢志成為海上建築師。", "1990年畢業於台大造船研究所，服國防役進入台船公司，至今已30年。歷經設計處、企劃處、環保公共處、管理處等部門的歷練及主管職務。深感造船管理的複雜度，以及轉型創新的必要性，再次到中山企管所進修，在公司曾經負責多項大型專案。", "目前擔任管理處部門主管，下轄台船學院，致力於海工及國艦國造人才培育。"
+            ]
+        },
+        {
+            "image": "https://events.businesstoday.com.tw/2020/newenergyforum/images/speakers/speakers08.png",
+            "position": "中興工程顧問社資深研究員 (主任)",
+            "name": "冀樹勇",
+            "description": [
+                "冀樹勇主任於1994年取得國立成功大學土木研究所博士學位，隨後進入財團法人中興工程顧問社大地工程研中心任職，歷經副研究員、研究員、資深研究員與副經理、經理/主任等職，並於2010獲得中國工程師學會傑出工程師獎。近年帶領團隊投入二氧化碳地質封存、地熱發電與離岸風電等大地工程相關新興能源技術發展與服務，曾參與海洋離岸示範風場二期地質調查與水下基礎設計工作。"
             ]
         }
     ],
@@ -142,8 +169,13 @@
                     "url": ""
                 },
                 {
-                    "title": "寶晶",
+                    "title": "寶晶能源",
                     "image": "https://events.businesstoday.com.tw/2020/newenergyforum/images/organizers/logotype2-04.png",
+                    "url": ""
+                },
+                {
+                    "title": "聯合再生URE",
+                    "image": "https://events.businesstoday.com.tw/2020/newenergyforum/images/organizers/logotype2-08.png",
                     "url": ""
                 },
                 {
@@ -186,12 +218,12 @@
                     "url": ""
                 },
                 {
-                    "title": "德國",
+                    "title": "德國辦事處",
                     "image": "https://events.businesstoday.com.tw/2020/newenergyforum/images/organizers/logotype3-05.png",
                     "url": ""
                 },
                 {
-                    "title": "丹麥",
+                    "title": "丹麥辦事處",
                     "image": "https://events.businesstoday.com.tw/2020/newenergyforum/images/organizers/logotype3-06.png",
                     "url": ""
                 },
@@ -201,7 +233,7 @@
                     "url": ""
                 },
                 {
-                    "title": "離岸風",
+                    "title": "離岸風電",
                     "image": "https://events.businesstoday.com.tw/2020/newenergyforum/images/organizers/logotype3-08.png",
                     "url": ""
                 }
