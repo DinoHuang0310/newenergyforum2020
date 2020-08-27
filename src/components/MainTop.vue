@@ -803,7 +803,7 @@ h1 {
   }
   #center-view {
     width: 92%;
-    padding: 25% 0;
+    padding: 20% 0;
   }
 }
 </style>
