@@ -64,9 +64,6 @@ export default {
   #organizer {
     padding-bottom: 4em;
   }
-  #organizer ul li img[alt="今周刊"] {
-    width: 75px;
-  }
 }
 
 </style>
