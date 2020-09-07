@@ -1,6 +1,27 @@
 {
     "mediaId": "XjOlSs_QKq0",
     "speakers": [{
+            "image": "https://events.businesstoday.com.tw/2020/newenergyforum/images/speakers/speakers09.png",
+            "position": "經濟部能源局局長",
+            "name": "游振偉",
+            "experience": [{
+                    "title": "學歷",
+                    "subtitle": "",
+                    "list": ["國立成功大學都市計劃研究所碩士"]
+                },
+                {
+                    "title": "經歷",
+                    "subtitle": "",
+                    "list": ["經濟部工業局副局長", "經濟部工業局主任秘書", "經濟部工業局副組長", "經濟部工業局簡任技正"]
+                },
+                {
+                    "title": "專長",
+                    "subtitle": "",
+                    "list": ["產業規劃", "工安環保"]
+                }
+            ]
+        },
+        {
             "image": "https://events.businesstoday.com.tw/2020/newenergyforum/images/speakers/speakers05.png",
             "position": "達德能源股份有限公司 技術總監",
             "name": "林世豪",
@@ -39,6 +60,27 @@
             ]
         },
         {
+            "image": "https://events.businesstoday.com.tw/2020/newenergyforum/images/speakers/speakers10.png",
+            "position": "聯合再生能源股份有限公司 董事長",
+            "name": "洪傳獻",
+            "experience": [{
+                    "title": "學歷",
+                    "subtitle": "",
+                    "list": ["國立清華大學電機博士"]
+                },
+                {
+                    "title": "工作經歷",
+                    "subtitle": "",
+                    "list": ["新日光能源科技股份有限公司 董事長暨執行長", "亞太材料學院 院士", "台灣太陽光電產業協會 理事長", "光華非晶矽公司 副總經理兼廠長", "財團法人工業技術研究院 材料所電池組/薄膜組組長", "國家太空中心太空計劃電力次系統主持人"]
+                },
+                {
+                    "title": "榮譽",
+                    "subtitle": "",
+                    "list": ["榮獲國際太陽電池領域最高榮譽PVSEC-23 Special Award"]
+                }
+            ]
+        },
+        {
             "image": "https://events.businesstoday.com.tw/2020/newenergyforum/images/speakers/speakers04.png",
             "position": "經濟部標準檢驗局第六組組長",
             "name": "黃志文",
@@ -61,7 +103,7 @@
             "experience": [{
                     "title": "學歷",
                     "subtitle": "",
-                    "list": ["以色列特拉維夫大學 Tel Aviv University", "新加坡國立大學 National Singapore University 工商管理(MBA) 碩士"]
+                    "list": ["以色列特拉維夫大學 Tel Aviv University 、新加坡國立大學 National Singapore University 工商管理(MBA) 碩士"]
                 },
                 {
                     "title": "經歷",
@@ -69,6 +111,12 @@
                     "list": ["曾任職於新加坡創投與家族財富管理辦公室Golden Equator Group。", "自2015年參與台灣盛達電業公司轉型再生能源新事業，由原先通訊及電源的主力市場，延伸轉型至綠能及太陽能產業與儲能產業之布局。", "成立集團旗下子公司盛齊綠能公司，代理銷售國際大廠SolarEdge和Sungrow太陽能發電系統，同時提供電網級太陽能AI監控平台與電站保養維運服務。"]
                 }
             ]
+        },
+        {
+            "image": "https://events.businesstoday.com.tw/2020/newenergyforum/images/speakers/speakers11.png",
+            "position": "力暘能源股份有限公司 副總經理",
+            "name": "袁淑湄",
+            "description": ["國立政治大學 地政學系 地政研究所博士", "都市計畫技師", "專長於土地規劃、房價趨勢分析、消費市場結構及國家房地產政策等領域。", "工作歷練建設公司、工程顧問公司、不動產開發公司等，擁有15年從業經驗。現擔任「 力暘能源」 副總經理一職， 主要從事太陽能案場土地開發評估。"]
         },
         {
             "image": "https://events.businesstoday.com.tw/2020/newenergyforum/images/speakers/speakers06.png",
@@ -104,14 +152,14 @@
         }
     ],
     "slider1": [{
-            "title": "台灣黑手的世界風電大賽",
-            "url": "https://pse.is/TQXKM",
-            "image": "https://doqvf81n9htmm.cloudfront.net/data/crop_article/98977/88.jpg_1140x855.jpg"
+            "title": "森崴大手筆投入 光風水電到綠電交易，無役不與",
+            "url": "https://www.businesstoday.com.tw/article/category/80393/post/202009030005/%E6%A3%AE%E5%B4%B4%E5%A4%A7%E6%89%8B%E7%AD%86%E6%8A%95%E5%85%A5%E3%80%80%E5%85%89%E9%A2%A8%E6%B0%B4%E9%9B%BB%E5%88%B0%E7%B6%A0%E9%9B%BB%E4%BA%A4%E6%98%93%EF%BC%8C%E7%84%A1%E5%BD%B9%E4%B8%8D%E8%88%87",
+            "image": "https://doqvf81n9htmm.cloudfront.net/data/crop_article/105342/109.jpg_1140x855.jpg"
         },
         {
-            "title": "為台灣離岸風電打先鋒 老船廠台船轉型綠電孵出小金雞",
-            "url": "https://pse.is/TZ455",
-            "image": "https://doqvf81n9htmm.cloudfront.net/data/tzuweichung_156/1081003%E5%8F%B0%E8%88%B9/CSBC1140x855.jpg"
+            "title": "聯合再生攜手兩大壽險 「硬轉軟」攻電力服務經營",
+            "url": "https://www.businesstoday.com.tw/article/category/80393/post/202009030007/%E8%81%AF%E5%90%88%E5%86%8D%E7%94%9F%E6%94%9C%E6%89%8B%E5%85%A9%E5%A4%A7%E5%A3%BD%E9%9A%AA%E3%80%80%E3%80%8C%E7%A1%AC%E8%BD%89%E8%BB%9F%E3%80%8D%E6%94%BB%E9%9B%BB%E5%8A%9B%E6%9C%8D%E5%8B%99%E7%B6%93%E7%87%9F",
+            "image": "https://doqvf81n9htmm.cloudfront.net/data/crop_article/105344/112.jpg_1140x855.jpg"
         },
         {
             "title": "海上變形金剛 海事工程大功臣",
@@ -120,9 +168,9 @@
         }
     ],
     "slider2": [{
-            "title": "小英翻轉能源政策　讓他從飯店櫃檯變風電焊工　還能說一口流利法文",
-            "url": "https://pse.is/T53UZ",
-            "image": "https://doqvf81n9htmm.cloudfront.net/data/crop_article/98965/96.jpg_1140x855.jpg"
+            "title": "82歲台電老兵》樂山顧雷達、救彰化風機！「台灣電力國寶」的傳承大計",
+            "url": "https://www.businesstoday.com.tw/article/category/154769/post/202009030009/82%E6%AD%B2%E5%8F%B0%E9%9B%BB%E8%80%81%E5%85%B5%E3%80%8B%E6%A8%82%E5%B1%B1%E9%A1%A7%E9%9B%B7%E9%81%94%E3%80%81%E6%95%91%E8%8B%97%E6%A0%97%E9%A2%A8%E6%A9%9F%EF%BC%81%E3%80%8C%E5%8F%B0%E7%81%A3%E9%9B%BB%E5%8A%9B%E5%9C%8B%E5%AF%B6%E3%80%8D%E7%9A%84%E5%82%B3%E6%89%BF%E5%A4%A7%E8%A8%88",
+            "image": "https://doqvf81n9htmm.cloudfront.net/data/crop_article/105346/119.jpg_1140x855.jpg"
         },
         {
             "title": "跨領域人才美夢成真 風電產業正要起飛",
@@ -130,9 +178,9 @@
             "image": "https://doqvf81n9htmm.cloudfront.net/data/crop_article/100968/0.jpg_1140x855.jpg"
         },
         {
-            "title": "卡位全新產業機會　CIP要培育在地人才",
-            "url": "https://pse.is/QL3TF",
-            "image": "https://doqvf81n9htmm.cloudfront.net/data/crop_article/94476/21200.jpg_1140x855.jpg"
+            "title": "28歲理工女接棒！在台北盯彰化雞寮太陽能板 父女聯手啟動綠能大轉型",
+            "url": "https://www.businesstoday.com.tw/article/category/183015/post/202009030011/28%E6%AD%B2%E7%90%86%E5%B7%A5%E5%A5%B3%E6%8E%A5%E6%A3%92%EF%BC%81%E5%9C%A8%E5%8F%B0%E5%8C%97%E7%9B%AF%E5%BD%B0%E5%8C%96%E9%9B%9E%E5%AF%AE%E5%A4%AA%E9%99%BD%E8%83%BD%E6%9D%BF%E3%80%80%E7%88%B6%E5%A5%B3%E8%81%AF%E6%89%8B%E5%95%9F%E5%8B%95%E7%B6%A0%E8%83%BD%E5%A4%A7%E8%BD%89%E5%9E%8B",
+            "image": "https://doqvf81n9htmm.cloudfront.net/data/crop_article/105348/121.jpg_1140x855.jpg"
         }
     ],
     "agencys": [{
@@ -146,10 +194,16 @@
         {
             "title": "主辦單位",
             "list": [{
-                "title": "今周刊",
-                "image": "https://www.businesstoday.com.tw/lazyweb/web/img/logo.png",
-                "url": "https://www.businesstoday.com.tw/"
-            }]
+                    "title": "今周刊",
+                    "image": "https://events.businesstoday.com.tw/2020/newenergyforum/images/organizers/logotype1-01.png",
+                    "url": "https://www.businesstoday.com.tw/"
+                },
+                {
+                    "title": "ESG",
+                    "image": "https://events.businesstoday.com.tw/2020/newenergyforum/images/organizers/logotype1-02.png",
+                    "url": ""
+                }
+            ]
         },
         {
             "title": "推動夥伴",
@@ -184,6 +238,11 @@
                     "url": ""
                 },
                 {
+                    "title": "力暘能源",
+                    "image": "https://events.businesstoday.com.tw/2020/newenergyforum/images/organizers/logotype2-09.png",
+                    "url": ""
+                },
+                {
                     "title": "台灣汽電共生股份有限公司",
                     "image": "https://events.businesstoday.com.tw/2020/newenergyforum/images/organizers/logotype2-06.png",
                     "url": ""
@@ -200,6 +259,11 @@
             "list": [{
                     "title": "能源局",
                     "image": "https://events.businesstoday.com.tw/2020/newenergyforum/images/organizers/logotype3-01.png",
+                    "url": ""
+                },
+                {
+                    "title": "綠能科技產業推動中心",
+                    "image": "https://events.businesstoday.com.tw/2020/newenergyforum/images/organizers/logotype3-09.png",
                     "url": ""
                 },
                 {
