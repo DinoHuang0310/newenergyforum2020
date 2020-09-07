@@ -554,7 +554,6 @@
       </h1>
       <button
         v-scroll-to="{el: '#register'}"
-        @click="setGA"
       >
         立即報名
       </button>
@@ -584,9 +583,6 @@ export default {
     },
     imageLoaded() {
       this.flip = true;
-    },
-    setGA() {
-      this.$ga.event('signup', 'click', 'main');
     }
   },
   mounted() {

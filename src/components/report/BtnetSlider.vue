@@ -9,7 +9,6 @@
         <a
           :href="list.url"
           target="_blank"
-          @click="setGA(list.title)" 
         >
           <figure>
             <div :class="list.isMedia ? 'btnet-slider-mediabox' : ''" >
@@ -75,12 +74,6 @@ export default {
           },
         ]
       },
-    }
-  },
-  methods: {
-    setGA(label) {
-      // 嘗試追蹤不可預期的label參數
-      this.$ga.event('article', 'click', label);
     }
   }
 }

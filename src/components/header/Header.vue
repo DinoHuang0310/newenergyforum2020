@@ -21,7 +21,6 @@
           <a
             href="http://www.facebook.com/share.php?u=https://events.businesstoday.com.tw/2020/newenergyforum"
             target="_blank"
-            @click="setGA('facebook')"
           >
             <img src="../../assets/images/ico-facebook.svg" alt="facebook-share" />
           </a>
@@ -30,7 +29,6 @@
           <a
             href="https://social-plugins.line.me/lineit/share?url=https://events.businesstoday.com.tw/2020/newenergyforum"
             target="_blank"
-            @click="setGA('line')"
           >
             <img src="../../assets/images/ico-line.svg" alt="line-share" />
           </a>
@@ -110,11 +108,6 @@ export default {
           isAnchor: false,
         }
       ]
-    }
-  },
-  methods: {
-    setGA(label) {
-      this.$ga.event('share', 'click', label);
     }
   }
 }
@@ -209,8 +202,7 @@ header img {
   .header-top ul {
     padding-right: 58px;
   }
-  .header-top .facebook-share,
-  .header-top .line-share {
+  .header-top > ul {
     display: none;
   }
   .line-share,
@@ -224,11 +216,8 @@ header img {
   .businesstoday img {
     padding: 8px 0;
   }
-  .businesstoday a {
-    margin-right: 0;
-  }
   .businesstoday a:last-child {
-    display: none;
+    margin-right: 0;
   }
 }
 

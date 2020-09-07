@@ -4,7 +4,7 @@
       <p>
         <small>今周文化事業(股)公司/今周行銷(股)公司/今周出版(股)公司 版權所有 本網站圖文非經本社同意不得刊載 Copyright © {{ year }} Business Today All rights reserved</small>
         <br>
-        <span>經濟部廣告</span>
+        <span>經濟部能源局廣告</span>
       </p>
     </div>
     <transition>
@@ -15,7 +15,6 @@
         <a
           href="#"
           v-scroll-to="{el: '#register'}"
-          @click.stop="setGA"
         >
           立即報名<i class="fas fa-edit" />
         </a>
@@ -64,9 +63,6 @@ export default {
       } else {
         this.showButton = false;
       }
-    },
-    setGA() {
-      this.$ga.event('signup', 'click', 'float');
     }
   },
   destroyed () {

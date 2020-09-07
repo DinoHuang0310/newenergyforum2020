@@ -119,7 +119,6 @@ export default {
         return false;
       }
       // 前端驗證完成 封裝送出
-      this.setGA('click', 'submit');
       this.loading = true;
       let self = this;
       axios.post('https://events.businesstoday.com.tw/event_backend/backend/newenergyforum2020/sign_up', {
@@ -133,8 +132,7 @@ export default {
       .then(function(response) {
         // 檢測結果
         if(response.data.status === "ok") {
-          self.setGA('response', 'signupOK');
-          alert('報名成功');
+          alert('您已報名成功，活動三天前將寄發提醒報名序號簡訊，當天憑簡訊報到入場。\n感謝您的報名。');
           self.name = null,
           self.mobile = null,
           self.mail = null,
@@ -144,21 +142,16 @@ export default {
           self.agree = false,
           self.loading = false
         } else {
-          self.setGA('response', 'signupFall');
           alert(`報名失敗- ${response.data.message}`);
           self.loading = false;
           console.log(response);
         }
       })
       .catch(function(error) {
-        self.setGA('response', 'signupError');
         alert('報名失敗');
         self.loading = false;
         console.log(error);
       });
-    },
-    setGA(action, label) {
-      this.$ga.event('signup', action, label);
     }
   },
 }
