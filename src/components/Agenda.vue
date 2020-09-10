@@ -103,6 +103,15 @@ export default {
   border-top: solid 1px #ccc;
   border-bottom: solid 1px #ccc;
 }
+.agenda-table ol {
+  margin-top: 0;
+  text-align: left;
+  padding-left: 1em;
+}
+.agenda-table ol li {
+  list-style: decimal;
+  letter-spacing: inherit;
+}
 .controller td label {
   display: inline-block;
   min-width: 30%;
@@ -153,6 +162,9 @@ export default {
 }
 
 @media screen and (min-width: 481px) {
+  .agenda-table thead th:nth-child(2) {
+    width: 45%;
+  }
   .agenda-table td,
   .agenda-table th {
     border-bottom: solid 1px #ccc;
