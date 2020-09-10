@@ -1,6 +1,22 @@
 {
     "mediaId": "XjOlSs_QKq0",
     "speakers": [{
+            "image": "https://events.businesstoday.com.tw/2020/newenergyforum/images/speakers/speakers12.png",
+            "position": "中華民國經濟部政務次長",
+            "name": "曾文生",
+            "experience": [{
+                    "title": "學歷",
+                    "subtitle": "",
+                    "list": ["國立臺灣大學土木工程學系"]
+                },
+                {
+                    "title": "經歷",
+                    "subtitle": "",
+                    "list": ["經濟部政務次長（民國107年4月迄今）", "高雄市政府經濟發展局局長（民國102年3月至民國107年4月）", "高雄市政府經濟發展局專門委員（民國99年12月至民國102年3月）", "高雄市政府顧問（民國98年10月至民國99年12月）", "高雄市政府都市發展局專員(民國97年9月至民國98年10月）", "行政院青年輔導委員會約聘研究員（民國96年1月至民國97年1月）", "民進黨青年部主任 (民國94年2月至民國95年9月）", "行政院青年輔導委員會專門委員（民國93年5月至民國94年2月）"]
+                }
+            ]
+        },
+        {
             "image": "https://events.businesstoday.com.tw/2020/newenergyforum/images/speakers/speakers09.png",
             "position": "經濟部能源局局長",
             "name": "游振偉",
@@ -60,23 +76,23 @@
             ]
         },
         {
-            "image": "https://events.businesstoday.com.tw/2020/newenergyforum/images/speakers/speakers10.png",
-            "position": "聯合再生能源股份有限公司 董事長",
-            "name": "洪傳獻",
+            "image": "https://events.businesstoday.com.tw/2020/newenergyforum/images/speakers/speakers13.png",
+            "position": "聯合再生能源股份有限公司執行長",
+            "name": "潘文輝",
             "experience": [{
+                    "title": "現任",
+                    "subtitle": "",
+                    "list": ["聯合再生能源股份有限公司執行長", "新竹科學工業園區公會常務理事", "Gintech(Thailand) LIMITED董事長"]
+                },
+                {
                     "title": "學歷",
                     "subtitle": "",
-                    "list": ["國立清華大學電機博士"]
+                    "list": ["逢甲大學纖維與複合材料學系", "美國北卡羅來納大學纖維高分子工程博士"]
                 },
                 {
-                    "title": "工作經歷",
+                    "title": "經歷",
                     "subtitle": "",
-                    "list": ["新日光能源科技股份有限公司 董事長暨執行長", "亞太材料學院 院士", "台灣太陽光電產業協會 理事長", "光華非晶矽公司 副總經理兼廠長", "財團法人工業技術研究院 材料所電池組/薄膜組組長", "國家太空中心太空計劃電力次系統主持人"]
-                },
-                {
-                    "title": "榮譽",
-                    "subtitle": "",
-                    "list": ["榮獲國際太陽電池領域最高榮譽PVSEC-23 Special Award"]
+                    "list": ["昱晶能源科技股份有限公司總經理", "蘇揚企業集團總經理", "美國住友電子主任工程師及實驗室主管"]
                 }
             ]
         },
@@ -113,10 +129,33 @@
             ]
         },
         {
+            "image": "https://events.businesstoday.com.tw/2020/newenergyforum/images/speakers/speakers14.png",
+            "position": "日益能源科技股份有限公司 執行長",
+            "name": "畢婉蘋",
+            "experience": [{
+                    "title": "學歷",
+                    "subtitle": "",
+                    "list": ["國立中央大學企業管理博士班", "英國里茲大學國際行銷管理碩士"]
+                },
+                {
+                    "title": "經歷",
+                    "subtitle": "",
+                    "list": ["日益能源科技股份有限公司 董事長", "台灣再生能源推動聯盟 理事", "台灣綠色電力發展協會發起人"]
+                }
+            ],
+            "description": ["從長庚醫學大學時期就關注著人類生存健康品質的議題，在經過一連串學經歷的洗禮後，更紮深了企業除了關心獲利外更有對社會與地球友好永續發展的使命，進而從原料供應端成為日益能源開發建置商，一直堅持到現在成為了「台灣綠色電力發展協會」發起人，除了關心台灣這塊土地外，更將視野放眼國際，推動全球綠電憑證交易的平台，使得每個小小屋頂的綠色能源也能被世界看見。"]
+        },
+        {
             "image": "https://events.businesstoday.com.tw/2020/newenergyforum/images/speakers/speakers11.png",
             "position": "力暘能源股份有限公司 副總經理",
             "name": "袁淑湄",
             "description": ["國立政治大學 地政學系 地政研究所博士", "都市計畫技師", "專長於土地規劃、房價趨勢分析、消費市場結構及國家房地產政策等領域。", "工作歷練建設公司、工程顧問公司、不動產開發公司等，擁有15年從業經驗。現擔任「 力暘能源」 副總經理一職， 主要從事太陽能案場土地開發評估。"]
+        },
+        {
+            "image": "https://events.businesstoday.com.tw/2020/newenergyforum/images/speakers/speakers15.png",
+            "position": "台灣再生能源推動聯盟理事長",
+            "name": "高茹萍",
+            "description": ["台灣再生能源推動聯盟 理事長 2015～至今", "曾在留德期間看到德國從政府到民間非常重視環境教育，也希望台灣在經濟發展的同時，也能同時兼顧環境。回台後先投入台灣社區大學推動工作，自2014年起，因為政府決定核四封存，開始了推動台灣再生能源的工作，因此於2015年正式成立台灣再生能源推動聯盟，旨在建立台灣再生能源發展的友善道路，並致力於提高台灣再生能源的社會共識以及敦促政府推動國家能源轉型的進程。"]
         },
         {
             "image": "https://events.businesstoday.com.tw/2020/newenergyforum/images/speakers/speakers06.png",
@@ -149,6 +188,22 @@
             "description": [
                 "冀樹勇主任於1994年取得國立成功大學土木研究所博士學位，隨後進入財團法人中興工程顧問社大地工程研中心任職，歷經副研究員、研究員、資深研究員與副經理、經理/主任等職，並於2010獲得中國工程師學會傑出工程師獎。近年帶領團隊投入二氧化碳地質封存、地熱發電與離岸風電等大地工程相關新興能源技術發展與服務，曾參與海洋離岸示範風場二期地質調查與水下基礎設計工作。"
             ]
+        },
+        {
+            "image": "https://events.businesstoday.com.tw/2020/newenergyforum/images/speakers/speakers16.png",
+            "position": "國立高雄科技大學校長",
+            "name": "楊慶煜",
+            "experience": [{
+                    "title": "學歷",
+                    "subtitle": "",
+                    "list": ["美國科羅拉多州立大學機械工程系 博士", "國立成功大學機械工程系 碩士", "國立台灣工業技術學院機械工程系 學士"]
+                },
+                {
+                    "title": "經歷",
+                    "subtitle": "",
+                    "list": ["國立高雄應用科技大學校長", "國立高雄應用科技大學副校長", "國立高雄應用科技大學工學院院長", "國立高雄應用科技大學模具系主任", "國立高雄應用科技大學模具工程系教授", "中華民國模具發展協會理事長", "華梵人文科技學院 機電所與機械系 副教授"]
+                }
+            ]
         }
     ],
     "slider1": [{
@@ -162,9 +217,9 @@
             "image": "https://doqvf81n9htmm.cloudfront.net/data/crop_article/105344/112.jpg_1140x855.jpg"
         },
         {
-            "title": "海上變形金剛 海事工程大功臣",
-            "url": "https://pse.is/SZXQX",
-            "image": "https://doqvf81n9htmm.cloudfront.net/data/crop_article/98980/100.jpg_1140x855.jpg"
+            "title": "綠能新貴 720天成功抓住南台灣的陽光",
+            "url": "https://www.businesstoday.com.tw/article/category/80393/post/202009030014/%E7%B6%A0%E8%83%BD%E6%96%B0%E8%B2%B4%E3%80%80720%E5%A4%A9%E6%88%90%E5%8A%9F%E6%8A%93%E4%BD%8F%E5%8D%97%E5%8F%B0%E7%81%A3%E7%9A%84%E9%99%BD%E5%85%89",
+            "image": "https://doqvf81n9htmm.cloudfront.net/data/crop_article/105351/0903-1.jpg_1140x855.jpg"
         }
     ],
     "slider2": [{
@@ -240,6 +295,11 @@
                 {
                     "title": "力暘能源",
                     "image": "https://events.businesstoday.com.tw/2020/newenergyforum/images/organizers/logotype2-09.png",
+                    "url": ""
+                },
+                {
+                    "title": "日益能源",
+                    "image": "https://events.businesstoday.com.tw/2020/newenergyforum/images/organizers/logotype2-10.png",
                     "url": ""
                 },
                 {
