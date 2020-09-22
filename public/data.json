@@ -1,6 +1,26 @@
 {
-    "mediaId": "XjOlSs_QKq0",
+    "mediaId": "mifElEEFTOw",
     "speakers": [{
+            "image": "https://events.businesstoday.com.tw/2020/newenergyforum/images/speakers/speakers17.png",
+            "position": "行政院副院長",
+            "name": "沈榮津",
+            "experience": [{
+                "title": "重要經歷",
+                "subtitle": "",
+                "list": ["經濟部部長", "經濟部政務次長", "經濟部常務次長", "經濟部工業局局長", "經濟部加工出口區管理處處長", "經濟部參事兼中部辦公室主任", "經濟部工業局副局長", "經濟部主任秘書"]
+            }]
+        },
+        {
+            "image": "https://events.businesstoday.com.tw/2020/newenergyforum/images/speakers/speakers21.png",
+            "position": "德國在台協會處長",
+            "name": "王子陶",
+            "experience": [{
+                "title": "經歷",
+                "subtitle": "",
+                "list": ["德國駐孟加拉達卡大使館大使", "德國外交部外貿科主任", "德國國防部策略與駐外維和隊之外交部特派資深政策顧問", "德國駐澳洲坎培拉大使館公使", "德國駐上海總領事館經濟組組長", "德國駐日本東京大使館政務參贊", "駐阿富汗喀布爾國際維和部隊指揮官之政策顧問", "德國擔任歐盟輪值主席室公共關係副主任", "德國外交部歐盟司參贊", "德國駐印尼雅加達大使館一等秘書（文化事務）", "德國駐羅馬尼亞布加勒斯特大使館一等秘書（政治事務）", "德國外交部二等秘書（文化事務）", "進入德國外交部，並接受專員訓練"]
+            }]
+        },
+        {
             "image": "https://events.businesstoday.com.tw/2020/newenergyforum/images/speakers/speakers12.png",
             "position": "中華民國經濟部政務次長",
             "name": "曾文生",
@@ -97,6 +117,27 @@
             ]
         },
         {
+            "image": "https://events.businesstoday.com.tw/2020/newenergyforum/images/speakers/speakers19.png",
+            "position": "臺灣電力公司電力調度處處長",
+            "name": "吳進忠",
+            "experience": [{
+                    "title": "學歷",
+                    "subtitle": "",
+                    "list": ["英國倫敦商學院(LBS) 高階管理班 結業", "美國德州大學阿靈頓分校(UTA) 能源研究中心(ESRC) 博士後研究", "國立台灣科技大學 電機工程研究所 電機工程博士班畢業"]
+                },
+                {
+                    "title": "經歷",
+                    "subtitle": "",
+                    "list": ["台灣電力公司 電力調度處 處長", "台灣電力公司 電力調度處 副處長", "台灣電力公司 電力調度處 中央調度監", "台灣電力公司 電力調度處 計劃組長", "台灣電力公司 電力調度處 調度組長", "台灣電力公司 電力調度處 運用課長", "台灣電力公司 電力調度處 值班主任", "台灣電力公司 台北供電區營運處 電機工程師", "亞太經濟合作會議(APEC) 能源效率專家"]
+                },
+                {
+                    "title": "專長",
+                    "subtitle": "",
+                    "list": ["電力系統規劃、調度、控制、運轉、營運管理", "電力市場交易與輔助服務", "需量反應與需求面管理"]
+                }
+            ]
+        },
+        {
             "image": "https://events.businesstoday.com.tw/2020/newenergyforum/images/speakers/speakers04.png",
             "position": "經濟部標準檢驗局第六組組長",
             "name": "黃志文",
@@ -166,6 +207,27 @@
             ]
         },
         {
+            "image": "https://events.businesstoday.com.tw/2020/newenergyforum/images/speakers/speakers20.png",
+            "position": "經濟部工業局金屬機電組組長",
+            "name": "林華宇",
+            "experience": [{
+                    "title": "學歷",
+                    "subtitle": "",
+                    "list": ["國立臺灣大學環境工程學研究所碩士"]
+                },
+                {
+                    "title": "經歷",
+                    "subtitle": "",
+                    "list": ["經濟部工業局 金屬機電組組長", "國防部資源司 財物資源處副處長", "經濟部工業局 專員、秘書"]
+                },
+                {
+                    "title": "業務",
+                    "subtitle": "",
+                    "list": ["產業政策推動及輔導"]
+                }
+            ]
+        },
+        {
             "image": "https://events.businesstoday.com.tw/2020/newenergyforum/images/speakers/speakers02.png",
             "position": "台灣海洋重工董事長",
             "name": "柯宗廷",
@@ -206,6 +268,7 @@
             ]
         }
     ],
+    "openRegister": false,
     "slider1": [{
             "title": "森崴大手筆投入 光風水電到綠電交易，無役不與",
             "url": "https://www.businesstoday.com.tw/article/category/80393/post/202009030005/%E6%A3%AE%E5%B4%B4%E5%A4%A7%E6%89%8B%E7%AD%86%E6%8A%95%E5%85%A5%E3%80%80%E5%85%89%E9%A2%A8%E6%B0%B4%E9%9B%BB%E5%88%B0%E7%B6%A0%E9%9B%BB%E4%BA%A4%E6%98%93%EF%BC%8C%E7%84%A1%E5%BD%B9%E4%B8%8D%E8%88%87",
