@@ -144,9 +144,6 @@ export default {
   opacity: 1;
   transition: .5s;
 }
-.other-speakers li button.empty {
-  background: #999;
-}
 .vm--top-right-slot button.closebox {
   background: none;
   color: white;
