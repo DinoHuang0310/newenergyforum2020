@@ -3,7 +3,7 @@
     <h2 data-en="Register">立即報名</h2>
     <div class="register-box">
       <div class="wrapper">
-        <div :class="loading ? 'signup-form submit' : 'signup-form'">
+        <div v-if="openRegister" :class="loading ? 'signup-form submit' : 'signup-form'">
           <input v-model="name" type="text" placeholder="姓名*" maxlength="50" />
           <input
             v-model="mobile"
@@ -52,6 +52,12 @@
           </modal>
           <button @click="submit">確認送出</button>
         </div>
+        <div v-else class="signup-form">
+          <section class="close-form">
+            <h3>報名已額滿</h3>
+            <p>本活動報名已經額滿，感謝您對本活動的支持。</p>
+          </section>
+        </div>
         <div class="alert">
           <h3>報名注意事項</h3>
           <ol>
@@ -71,6 +77,12 @@
 import axios from 'axios'
 
 export default {
+  props: {
+    openRegister: {
+      type: Boolean,
+      required: true
+    },
+  },
   data: function() {
     return {
       name: null,
@@ -270,6 +282,12 @@ export default {
   -webkit-animation: setRotate 2s linear infinite;
   -moz-animation: setRotate 2s linear infinite;
   animation: setRotate 2s linear infinite;
+}
+.close-form {
+  padding: 1em;
+  color: white;
+  border: solid 2px white;
+  background: rgba(255, 255, 255, .2);
 }
 
 @media (hover: hover) {

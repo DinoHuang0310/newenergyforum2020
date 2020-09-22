@@ -8,7 +8,7 @@
     <Speakers v-if="data" :speakers="data.speakers" />
     <Information />
     <Agenda />
-    <Register />
+    <Register v-if="data" :openRegister="data.openRegister" />
     <Report
       v-if="data"
       :slider1="data.slider1"
