@@ -44,7 +44,7 @@ export default {
     return {
       slickOptions: {
         infinite: true,
-        autoplay: false,
+        autoplay: true,
         autoplaySpeed : 3000,
         centerMode: true,
         adaptiveHeight: true,
